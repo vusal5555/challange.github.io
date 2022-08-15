@@ -3,6 +3,7 @@
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    // display: flex;
     align-items: center;
     gap: 30rem;
     
@@ -10,6 +11,7 @@
 
 
 .thumbnail-box {
+  
 
   &--img {
    
@@ -112,6 +114,7 @@
     &--img {
       
       width: 100%;
+      grid-row: 1 / -1;
       
       
     }
@@ -136,3 +139,27 @@
   
 
 }
+
+
+.features {
+  width: 80%;
+  margin: 15rem auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 10rem;
+  grid-row-gap: 5rem ;
+  text-align: center;
+
+
+
+  &--text {
+    font-size: 1.7rem;
+    font-weight: 400;
+  }
+}
+.feature {
+  
+  padding: 2.5rem;
+  border-radius: 1.5rem;
+}
+
