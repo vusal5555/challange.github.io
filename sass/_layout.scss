@@ -12,7 +12,9 @@
 .thumbnail-box {
 
   &--img {
-    width: 100%;
+   
+    width: 90%;
+    
     
   }
 }
@@ -24,6 +26,10 @@
   
 
   margin-top: 15rem;
+}
+
+.wrapper {
+  display: none;
 }
 
 
@@ -39,11 +45,7 @@
     gap: 15rem;
   }
 
-  .navbar {
-    display: none;
-    opacity: 0;
-  }
-
+  
   
   .thumbnail-box {
 
@@ -98,10 +100,7 @@
 
   
 
-  .navbar {
-    display: none;
-    opacity: 0;
-  }
+  
 
   
 
@@ -130,6 +129,8 @@
       
     }
   }
+
+  
 
   
   
