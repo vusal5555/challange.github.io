@@ -187,6 +187,16 @@
     flex-direction: column;
     gap: 2.5rem;
   }
+
+
+  .cards {
+    column-gap: 0;
+  }
+
+  .features {
+    column-gap: 0;
+    
+  }
 }
 
 .cards {
